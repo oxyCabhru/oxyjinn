@@ -1,9 +1,0 @@
-{
-    "builds": [
-      { "src": "src/routes/**/*", "use": "@sveltejs/adapter-node" }
-    ],
-    "routes": [
-      { "src": "/(.*)", "dest": "/index.html" }
-    ]
-  }
-  
